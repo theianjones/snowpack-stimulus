@@ -1,0 +1,21 @@
+<!-- File Location: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module" src="./src/app.js"></script>
+    <title>Snowpack - Simple Example</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <div data-controller="slideshow">
+      <button data-action="slideshow#previous">←</button>
+      <button data-action="slideshow#next">→</button>
+
+      <div data-target="slideshow.slide" class="slide">🐵</div>
+      <div data-target="slideshow.slide" class="slide">🙈</div>
+      <div data-target="slideshow.slide" class="slide">🙉</div>
+      <div data-target="slideshow.slide" class="slide">🙊</div>
+    </div>
+  </body>
+</html>

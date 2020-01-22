@@ -1,0 +1,18 @@
+{
+  "name": "snowpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ian Jones (https://ianjones.us)",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "serve ./"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0",
+    "snowpack": "^1.0.5"
+  },
+  "dependencies": {
+    "stimulus": "^1.1.1"
+  }
+}
